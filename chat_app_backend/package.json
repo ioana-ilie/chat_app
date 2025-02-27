@@ -1,0 +1,36 @@
+{
+  "name": "chat_app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ioana-ilie/chat_app.git"
+  },
+  "author": "Ioana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioana-ilie/chat_app/issues"
+  },
+  "homepage": "https://github.com/ioana-ilie/chat_app#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "jose": "^5.9.6",
+    "mongoose": "^8.9.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
