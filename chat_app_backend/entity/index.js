@@ -15,7 +15,7 @@ const ConversationSchema = new Schema({
   messages: [
     {
       message: String,
-      time: { type: Date, default: new Date()},
+      time: { type: Date, default: Date.now},
       user: { type: ObjectId, ref: "User", select: { username: 1 } },
       id: ObjectId,
     },
