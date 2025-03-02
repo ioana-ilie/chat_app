@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon --inspect main.js",
+    "start": "node main.js",
+    "debug": "nodemon --inspect main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,6 @@
   },
   "homepage": "https://github.com/ioana-ilie/chat_app#readme",
   "dependencies": {
-    "@types/express": "^5.0.0",
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -31,6 +31,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "nodemon": "^3.1.9"
   }
 }

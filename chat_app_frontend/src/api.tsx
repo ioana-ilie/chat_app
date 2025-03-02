@@ -9,9 +9,9 @@ export class HttpApiError extends Error {
   }
 }
 
-// const BASE_URL = "http://127.0.0.1:3000";
+// const BASE_URL = "https://127.0.0.1:3000";
 
-const BASE_URL = "http://34.159.214.145:3000";
+const BASE_URL = "https://chat-app-1032496763593.europe-west3.run.app";
 
 const fetchApi = async (
   endpoint: string,
